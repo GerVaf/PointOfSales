@@ -1,7 +1,7 @@
 // api.js
 import axios from "axios";
 
-const token = "20|Kv3kaZkAOaIseAf5FafnYRuaB09hqL7jDFCRxGkN";
+const token = "2|oNNrwcBwnX3l0hfweYbU7gFeATMdepoaoDPfjDWE";
 const baseUrl = "https://c.mmsdev.site/api/v1/";
 
 const axiosInstance = axios.create({
@@ -21,7 +21,7 @@ export const post = (url, data) => {
 };
 
 export const put = (url, data = {}) => {
-  return axiosInstance.put(url, { data });
+  return axiosInstance.put(url, data);
 };
 
 export const del = (url) => {
